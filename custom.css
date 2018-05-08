@@ -1,11 +1,11 @@
 #landing {
     background-color:lightblue;
-    border: 2px solid red;
+    border: 2px lightblue;
 }
 .title1{
-    margin-bottom:-20px;
+    margin-bottom:-19px;
     
 }
 .title2{
-    margin-bottom:-18px;
+    margin-bottom:-5px;
 }
