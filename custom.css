@@ -3,23 +3,37 @@
     
     
     
-    background-color:lightblue;
+    background:linear-gradient(to bottom,rgb(35,206,250),rgb(135,225,250),rgb(135,255,250));
     
     
     
     
     
-    border: 2px lightblue;
+    border: 5px solid lightblue;
 }
 .title1{
     margin-bottom:-19px;
+    font-family: 'Fredericka the Great',cursive;
+     text-shadow: 2px 2px lightgray;
+    
     
 }
 .title2{
     margin-bottom:-5px;
     font-family: 'Fredericka the Great',cursive;
+     text-shadow: 2px 2px gray;
 }
 
 header{
     font-family: 'Julius Sans One', sans-serif;
+}
+#demo{
+    border: 3px solid black;
+    background: linear-gradient(to right, gray, lightblue);
+    
+}
+.navcustom{
+    background: linear-gradient(to right, red,green);
+    border: 3px solid black;
+    
 }
