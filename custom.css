@@ -1,39 +1,60 @@
 #landing {
-    
-    
-    
-    
-    background:linear-gradient(to bottom,rgb(35,206,250),rgb(135,225,250),rgb(135,255,250));
-    
-    
-    
-    
-    
+
+
+
+
+    background: linear-gradient(to bottom, rgb(35, 206, 250), rgb(135, 225, 250), rgb(135, 255, 250));
+
+
+
+
+
     border: 5px solid lightblue;
+  
+
+    animation-name: example;
+    animation-duration: 2s;
 }
-.title1{
-    margin-bottom:-19px;
-    font-family: 'Fredericka the Great',cursive;
-     text-shadow: 2px 2px lightgray;
-    
-    
-}
-.title2{
-    margin-bottom:-5px;
-    font-family: 'Fredericka the Great',cursive;
-     text-shadow: 2px 2px gray;
+    @keyframes example {
+      from {
+        background: linear-gradient(to bottom, rgb(35, 206, 250), rgb(135, 225, 250), rgb(135, 255, 250));
+      }
+      to {
+        background: linear-gradient(to bottom, rgb(135, 26, 250), rgb(135, 25, 250), rgb(135, 25, 250));
+
+      
+     
+      }
+    }
+.title1 {
+    margin-bottom: -19px;
+    font-family: 'Fredericka the Great', cursive;
+    text-shadow: 2px 2px lightgray;
+
+
 }
 
-header{
+.title2 {
+    margin-bottom: -5px;
+    font-family: 'Fredericka the Great', cursive;
+    text-shadow: 2px 2px gray;
+}
+
+header {
     font-family: 'Julius Sans One', sans-serif;
 }
-#demo{
+
+#demo {
     border: 3px solid black;
     background: linear-gradient(to right, gray, lightblue);
-    
+
 }
-.navcustom{
-    background: linear-gradient(to right, red,green);
+
+.navcustom {
+    background: linear-gradient(to right, red, green);
     border: 3px solid black;
-    
+
 }
+
+
+
