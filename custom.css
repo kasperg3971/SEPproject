@@ -38,7 +38,20 @@
     margin-bottom: -5px;
     font-family: 'Fredericka the Great', cursive;
     text-shadow: 2px 2px gray;
+     animation-name: example1;
+    animation-duration: 2s;
+    
 }
+@keyframes example {
+      from {
+       transform:scale(0,0)
+      }
+      to {
+        transform:scale(2,2)
+      
+     
+      }
+    }
 
 header {
     font-family: 'Julius Sans One', sans-serif;
